@@ -4,10 +4,10 @@
 
 ## Commands
 ```
-py -m venv iti-env
+py -m venv env
 ```
 ```
-iti-env\Scripts\activate.bat
+env\Scripts\activate.bat
 ```
 ```
 py -m pip install Django
@@ -25,7 +25,7 @@ python first_app/manage.py runserver
 cd first_app
 ```
 ```
-django-admin startapp todom i bootstrap
+django-admin startapp todo
 ```
 
 # Author
